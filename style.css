@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+			* {
+					margin: 0px;
+					padding: 0px;
+					list-style: none;
+					text-decoration: none;
+			  }	
+			
+			header  {
+					background-color: #eee;
+					width: 800px;
+					margin: 50px auto 0 auto;
+					padding: 10px;
+			        }
+					
+			nav {
+					width: 820px;
+					margin: 0px auto;
+			    }
+					
+			section {
+					background-color: #eee;
+					width: 800px;
+					margin: 10px auto 0 auto;
+					padding: 10px;
+			        }
+					
+			footer {
+					background-color: #eee;
+					width: 800px;
+					margin: 10px auto 50px auto;
+					padding: 10px;
+			        }
+					
+					
+	
+			body {
+					font-family: Georgia, Times, serif;
+					 
+				 }	
+				 
+			h1 {
+					color:purple;
+					font-weight: normal;
+					font-size: 42px;
+					line-height: 42px;
+			    }	
+				
+		    h2 {	
+					font-weight: normal;
+					font-size: 34px;
+					line-height: 42px;
+					color: purple;
+					margin: 20px 0 20px 0;
+					padding: 0 150px 0 96px;
+				}	
+			 
+			 h3 {	
+					font-weigth: normal;
+					font-size: 24px;
+					line-height: 34px;
+					color: purple;
+					margin: 10px 0 10px 0;
+					padding: 0 150px 0 96px;
+				}		
+
+			h1+p {	
+					font-style: italic;
+					padding: 0px;
+					margin: 5px 0 0 0;
+			     }	
+				 
+			p {		
+					font-size: 16px;
+					line-height: 24px;
+					margin: 5px 0 30px 0;
+					padding: 0 150px 0 96px;
+			  }	
+
+			ul {
+					list-style: none;
+			   }
+			   
+			a { 
+					color:purple;
+			  }		
+			
+			selection ul {
+					margin: 0 0 30px 0;
+					padding:0 150px 0 96px;
+			             }
+
+			section li {
+					font-size: 16px;
+					line-height: 24px;
+					margin: 0;
+					padding:0;
+					display: list-item;
+					list-style-type: circle;
+					width: 100%;
+			           }
+					   
+			nav li {
+					display: inline-block;
+			       }
+				
+				
+			div {	
+					float: right;
+					padding: 30px 350px 20px 20px;
+			    }	
+					
+
+
+			
+			.lang {
+					width: 165px;
+			      }
+
+			.lastunnervingchild {
+					margin-right: 0px;
+			      }
+				  
+			nav a {	
+					width: 80px;
+					background-color: #eee;
+					margin: 10px 6px 0 0;
+					padding: 10px;
+					display:block;
+					border-bottom-width: 5px;
+					border-bottom-style: solid;
+					border-bottom-color: #eee;
+				   }
+				   
+			nav a:link {
+					background-color: #eee;
+					border-bottom: 5px solid #eee;
+					   }
+			nav a:visited {
+					background-color: #eee;
+					border-bottom: 5px solid #eee;
+						  }
+			nav a:focus {
+					background-color: #eee;
+					border-bottom: 5px solid purple;
+						}
+			nav a:hover {
+					border-bottom: 5px solid purple;
+						}
+			nav a:active {
+					background-color: #ddd;
+					border-bottom: 5px solid purple;
+						 }
+			.auswahl {
+					border-bottom: 5px solid purple !important;
+					 }
+
+			
+					 
+				  
+		
+					
